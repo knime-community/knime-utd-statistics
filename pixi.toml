@@ -8,16 +8,16 @@ format = { cmd = "ruff format ." }
 
 [dependencies]
 python = "3.13.*"
-knime-extension = "*"
-knime-python-base = "*"
+knime-extension = "5.13.*"
+knime-python-base = "5.13.*"
 ruff = "*"
-knime-python-scripting = "*"
+knime-python-scripting = "5.13.*"
 knime-python-versions = "5.13.*"
 pytest = "*"
 
 [feature.build.dependencies]
 python = "3.13.*"
-knime-extension-bundling = "6.*"
+knime-extension-bundling = "6.1.*"
 
 [feature.debug.dependencies]
 debugpy = "*"
